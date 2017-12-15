@@ -1,0 +1,33 @@
+@import "reset";
+
+html {
+  background: #ecf0f1;
+}
+
+html, body, .v-center-flex {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background: #ecf0f1;
+}
+
+#logo {
+
+}
+
+.v-center-flex {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Opera 12.1, Firefox 20+ */
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.v-center-flex div {
+  margin: 0 auto;
+}
