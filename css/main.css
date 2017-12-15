@@ -92,7 +92,7 @@ canvas {
   display: block;
   margin: auto;
   background: #ecf0f1;
-  width: 100%; }
+  max-width: 100%; }
 
 .v-center-flex {
   display: -webkit-box;
