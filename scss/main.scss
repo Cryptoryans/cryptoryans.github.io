@@ -8,10 +8,15 @@ html, body, .v-center-flex {
   min-height: 100vh;
 }
 
+body {
+  padding: 0 3rem;
+}
+
 canvas {
   display: block;
   margin: auto;
   background: #ecf0f1;
+  width: 100%;
 }
 
 #logo {
