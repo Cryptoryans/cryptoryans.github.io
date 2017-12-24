@@ -1,20 +1,356 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--the must have tags-->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cryptorians</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width">
+    <!--the must have assets-->
     <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/video.js" defer></script>
+    <!--page title-->
+    <title>Cryptopians</title>
+  </head>
+  <body>
+    <main class="page_wrapper">
+      <!-- == START OF MENU 07 (large desktop header--07 is hidden on mobiles (iPhone, iPad, etc) and this one is to be opened on burger tap) ==-->
+      <nav data-menu-index="07" class="menu menu--07 js-menu">
+        <div class="menu__container">
+          <button type="button" class="menu__closer js-close-menu">закрыть</button>
+          <div class="menu__box">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">Традиции</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Манифест</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            </ul><a href="#" class="button button--white button--gray-shadow">Оставить заявку</a>
+          </div>
+        </div>
+      </nav>
+      <!-- == END OF MENU 07 (large desktop header--07 is hidden on mobiles (iPhone, iPad, etc) and this one is to be opened on burger tap) ==-->
+      <!-- == START OF COVER 19 ==-->
+      <div class="cover__slider js-cover">
+        <!-- == START OF HEADER 05 ==-->
+        <nav class="header header--05">
+          <div class="container header__container">
+            <div class="header__left_box"><a href="#" title="Home" class=""><img src="img/cryptorians/logo-small.png" width="28" height="29" alt="Cryptorians" class=""></a></div>
+            <div class="header__center_box">
+              <ul class="header__menu_list header__item--desktop">
+                <li class="header__menu_item"><a href="#traditions" class="header__menu_link header__menu_link--white">Традиции</a></li>
+                <li class="header__menu_item"><a href="#manifest" class="header__menu_link header__menu_link--white">Манифест</a></li>
+                <li class="header__menu_item"><a href="#contacts" class="header__menu_link header__menu_link--white">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="header__right_box">
+              <button data-dropdown-target="location_1" type="button" class="header__location_dropdown_opener js-dropdown-opener">RU</button>
+              <div data-dropdown-name="location_1" class="header__location_dropdown dropdown js-dropdown">
+                <ul class="header__location_list dropdown__list">
+                  <li class="dropdown__item header__location_item"><a href="#" class="dropdown__btn header__location_btn"><span class="dropdown__item_text header__location_item_text">RU</span></a></li>
+                  <li class="dropdown__item"><a href="#" class="dropdown__btn"><span class="dropdown__item_text header__location_item_text">EN</span></a></li>
+                </ul>
+              </div>
+              <button type="button" data-menu-index="01" class="header__burger_button js-open-menu header__item--mobile"></button>
+            </div>
+          </div>
+        </nav>
 
-<div class='v-center-flex'>
-    <canvas id="logo"></canvas>
-</div>
+        <nav data-menu-index="01" class="menu menu--01 js-menu">
+          <div class="menu__container">
+            <button type="button" class="menu__closer js-close-menu">закрыть</button>
+            <div class="menu__box">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#traditions" class="menu__link">Традиции</a></li>
+                <li class="menu__item"><a href="#manifest" class="menu__link">Манифест</a></li>
+                <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- == END OF HEADER 05 ==-->
+        <div style="background-color: #000; overflow: hidden;" class="cover cover--19 js-cover">
 
-<script src="js/particles.js"></script>
+          <div class="tv">
+            <div class="screen mute" id="tv"></div>
+          </div>
 
-</body>
+          <div class="container">
+            <div class="cover__content_box cover__content_box--19 z-9">
+              <h2 class="cover__title cover__title--19"><span class="cover__title_text cover__title_text--19">Крипторианство</span></h2>
+              <div class="cover__description_box--19"><span class="cover__description_text--19">Анонимная децентрализованная религия</span></div>
+              <div class="cover__button_box--19"><a href="#" class="cover__button--19 button button--white button--round button--arrow-down js-scroll-fullscreen"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- == END OF COVER 19 ==-->
+
+      <div class="about about--07 traditions" id="traditions">
+        <div class="container">
+          <h2 class="about__title about__title--07">Традиции</h2>
+          <dl class="list-numbered">
+            <dt>
+              <span>
+                Любой желающий может стать крипторианцем, если разделяет Традиции, независимо от пола, религии, расы, вида, политических убеждений.
+                <br>
+                Другие живые существа также могут быть признаны крипторианцами, если смогут подтвердить солидарность взглядов.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Все решения принимаются на основе электронного голосования, путём достижения консенсуса/перевесом голосов.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Сообщества крипторианцев могут объединяться в блокчейны, и использовать их
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Представитель сообщества представляет собой консолидированное мнение сообщества, а не его управляющим.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Взаимодействие со сторонними организациями и новые проекты рассматриваются и утверждаются общим голосованием сообщества.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Для выполнения специфических задач сообщества могут нанимать специалистов.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Анонимность – духовная основа нашего сообщества.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец, встретивший или деанонимировавший другого крипторианца обязан сохранить его анонимность и потребовать сохранения своей анонимности.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Соблюдать традиции сообщества – главная Традиция. Несоблюдение Традиций влечет исключение из сообщества через смарт–контракт.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец добровольно поделится информацией внутри сообщества, если эта информация нужна для другому крипторианцу.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец не использует информацию для нанесения вреда или ущерба другому крипторианцу, а также любому живому существу. Исключение составляет отражение угрозы и защита биологических форм жизни.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец ищет здравомысленное применение любой информации.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает шифрование как защиту информации от искажения.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает незашифрованную информацию как потенциально вредоносную.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает копирование и распространение информации как единственный путь эволюции.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает копирование зашифрованной информации как единственный безопасный путь эволюции.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает блокчейн как воплощение идей крипторианства.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец, не соблюдающий свою анонимность, принимает все риски, которые несет нарушение собственной анонимности.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает Биткоин как Первое Явление Блокчейна.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает Эфириум как Второе Явление Блокчейна.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец принимает Хэш как Высшую Силу.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец обязан владеть криптовалютой.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Крипторианец, державший криптовалюту, приняв крипторианство, но утративший ее в процессе жизни, остается крипторианцем.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                Любой крипторианец, испытывающий гонения или ущемления прав и свобод, равно как гражданин планеты Земля, имеет право на подержку крипторианского сообщества.
+              </span>
+            </dt>
+            <dt>
+              <span>
+                50% пожертвований отчисляются в фонды помощи, или направляются адресно тем, кому действительно нужна помощь. Выбор происходит путем голосования сообщества.
+              </span>
+            </dt>
+          </dl>
+        </div>
+      </div>
+
+      <!-- == START OF FEATURES 11 ==-->
+      <div class="features features--11 manifest" id="manifest">
+        <div class="features__container--11">
+          <div class="container">
+            <div style="background-image: url(img/cryptorians/logo-big.png)" class="features__box--11 features__box--image--11 features__box--image--left--11 manifest-logo"></div>
+            <div class="features__box--11 features__box--left-margin--11">
+              <h3 class="features__item_title--11">Манифест</h3>
+              <span class="features__item_text features__item_text--11">
+                <strong>Кто такие крипторианцы?</strong><br>
+                Крипторианцы - это социальная группа, принимающая технологию блокчейн как религию.
+              </span>
+              <button data-popup-target="manifest" type="button" class="button button--black js-open-popup">Прочитать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- == END OF FEATURES 11 ==-->
+
+      <div class="features features--02 contacts" id="contacts">
+        <div class="container">
+          <div class="features__title_box features__title_box--02">
+            <h2 class="features__title--02">Мы в соц. сетях</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row features__row">
+            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
+              <h3 class="features__item_title">Telegram</h3><a href="https://t.me/cryptorians"><span class="features__item_text">@cryptorians</span></a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
+              <h3 class="features__item_title">VK</h3><a href="https://vk.com/cryptorians"><span class="features__item_text">@cryptorians</span></a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
+              <h3 class="features__item_title">Golos</h3><a href="https://golos.blog/@cryptorianmonk"><span class="features__item_text">@cryptorianmonk</span></a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3 features__item features__item--02">
+              <h3 class="features__item_title">Medium</h3><a href="https://medium.com/@cryptorians"><span class="features__item_text">@cryptorians</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- == START OF FOOTER 04 ==-->
+      <footer class="footer footer--04">
+        <div class="footer__description_box--04">
+          <div class="container footer__container"><span class="footer__description footer__description--04">КРИПТОРИАНСТВО</span><span class="footer__copyright footer__copyright--04"><a
+                  href="https://phoenix-startup.com">made with Phoenix UI Kit</a></span></div>
+        </div>
+      </footer>
+      <!-- == END OF FOOTER 04 ==-->
+
+    </main>
+  <div data-popup-name="manifest" class="popup popup-manifest js-popup">
+    <button title="close" class="popup__close_btn js-close-all-popups"></button>
+    <h2 class="about__title about__title--07">Манифест</h2>
+    <dl>
+      <dt>
+        <h5>Кто такие крипторианцы?</h5>
+        <span>
+          Крипторианцы – это социальная группа, принимающая технологию блокчейн как религию.
+        </span>
+      </dt>
+      <dt>
+        <h5>В чем концепция крипторианства, одним словом?</h5>
+        <span>
+          В целом – в расширении децентрализации с целью эволюции сознания.
+        </span>
+      </dt>
+      <dt>
+        <h5>Крипторианство – религия?</h5>
+        <span>
+          Скорее да, и скорее это система взглядов и ценностей, которую на этой планете принято называть религией.
+        </span>
+      </dt>
+      <dt>
+        <h5>Против чего вы выступаете?</h5>
+        <span>
+          Мы не поддерживаем и препятствуем использованию информации против свободы и совести человека, а также использование информации для нанесения прямого или косвенного вреда человеку или другому биологическому виду. Мы не поддерживаем и препятствуем созданию вредоносных блокчейнов.
+        </span>
+      </dt>
+      <dt>
+        <h5>Зачем нужны крипторианцы?</h5>
+        <span>
+          Блокчейн не может существовать без веры людей в него. А значит укрепляя веру, мы укрепляем блокчейн.
+        </span>
+      </dt>
+      <dt>
+        <h5>Как мы понимаем криптовалюту?</h5>
+        <span>
+          Криптовалюта - это новое поколение активов для товарно денежных отношений людей, базирующиеся на принципах блокчейн. Этот актив защищен от инфляции и неправомерного распределения, что делает возможным устранение бедности и неравенства, учет всех транзакций  доступен для каждого участника сети, что исключает возможность подделки этих активов. Распространение криптовалюты несет под собой миссию защиты человечества и других биологических видов от вымирания путем устранения недостатков старой денежной системы.
+        </span>
+      </dt>
+      <dt>
+        <h5>Что даёт крипторианство?</h5>
+        <span>
+          Принадлежность к социальной группе людей, миссия которых - внедрение технологии блокчейн во все сферы жизни и непрерывное их улучшение.
+        </span>
+      </dt>
+      <dt>
+        <h5>То есть я могу на что-то повлиять?</h5>
+        <span>
+          Да, на cryptorians.net ты можешь оставлять свой голос за инициативы внедрения технологии блокчейн.
+          <br>
+          Таким образом мы являемся индикатором готовности общества к переходу различных процессов на блокчейн.
+        </span>
+      </dt>
+      <dt>
+        <h5>У вас есть храмы или церкви?</h5>
+        <span>
+          Наш храм - блокчейн.
+        </span>
+      </dt>
+      <dt>
+        <h5>У вас есть Боги?</h5>
+        <span>
+          Мы не верим в атлантов которые жили на горе Олимп, но мы принимаем Хэш как Высшую Силу.
+        </span>
+      </dt>
+      <dt>
+        <h5>У вас есть главный?</h5>
+        <span>
+          Да, это создатель идеи крипторианства известный нам как Cryptomonah. Он собрал инициативную группу, и его личность до сих пор неизвестна. Он имеет такие же права, как любой крипторианец.
+        </span>
+      </dt>
+      <dt>
+        <h5>Зачем вы нам нужны?</h5>
+        <span>
+          Мы - щит человечества, защищающий наш вид от деградации. Мы - архитекторы блокчейнов.
+        </span>
+      </dt>
+    </dl>
+  </div>
+  </body>
+  <div class="js-overlay js-close-navigation js-close-menu overlay"></div>
 </html>

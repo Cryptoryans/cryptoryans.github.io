@@ -1,0 +1,66 @@
+.z-9 {
+  z-index: 9; }
+
+.screen {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin: auto;
+  opacity: 0;
+  transition: opacity .5s;
+  cursor: none;
+  pointer-events: none; }
+  .screen.active {
+    opacity: 0.3; }
+
+.manifest-logo {
+  top: 10%;
+  bottom: 10%;
+  background-size: contain; }
+
+dl dt {
+  position: relative;
+  margin-top: 1em;
+  padding-left: 2em; }
+
+.list-numbered {
+  counter-reset: counter; }
+  .list-numbered dt:before {
+    content: counter(counter);
+    counter-increment: counter;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.1em; }
+
+.traditions dl dt {
+  font-size: 1.1em;
+  color: #555; }
+  .traditions dl dt:before {
+    color: #000; }
+
+.manifest {
+  background: #f7f7f7;
+  padding: 50px 0; }
+
+.popup-manifest {
+  left: 30px;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  overflow: auto;
+  border-radius: 0; }
+  .popup-manifest dl dt {
+    margin-top: 2em; }
+  .popup-manifest dl h5 {
+    font-weight: 700; }
+  .popup-manifest .popup__close_btn {
+    right: 50px;
+    top: 50px;
+    position: fixed; }
+
+.state-fixed-body {
+  overflow: hidden; }
